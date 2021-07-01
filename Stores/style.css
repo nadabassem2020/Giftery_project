@@ -1,0 +1,26 @@
+.stores-links li{
+    list-style: none;
+    padding-top: 3px;
+
+
+}
+.stores-links li a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.start-group-letter{
+    height: 50px;
+    width: 50px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 10px;
+}
+.stores-links li a:hover{
+    color: rgba(124, 122, 122, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
