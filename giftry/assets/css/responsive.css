@@ -88,6 +88,9 @@
     .custom-btn{
         font-size: 12px;
     }
+    .login{
+        width: 100%!important;
+    }
 }
 
 @media screen and (max-width:567px) {
