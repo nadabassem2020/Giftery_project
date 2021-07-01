@@ -1,0 +1,125 @@
+.account , .lists li
+{
+    border: 2px solid #ddd;
+}
+.lists li{
+
+    border-top:0 ;
+    padding:16px 8px  ;
+}
+.lists
+{
+    margin-top: 32px;
+}
+.lists li:first-child
+{
+border-top: 2px solid #ddd;
+}
+.lists li
+{
+    color: #999;
+}
+
+.lists li:hover
+{
+    color: black;
+    transition: 1s;
+}
+/* .dashboard a
+{
+    color: black;
+} */
+/* .dashboard a:hover
+{
+    color: #999;
+    text-decoration: none;
+    transition: 0.5s;
+} */
+.orders a
+{
+    color: #333;
+    transition:all 0.3s ease;
+    font-weight: normal;
+}
+.order:hover
+{
+color: #aaa; 
+text-decoration: none;
+}
+.span
+{
+    font-size: 12px;
+}
+.bottuns a
+{
+    color: #555;
+}
+.bottuns a:hover
+{
+color: #000;
+transition: 0.3s;
+}
+.dashboardIcon
+{
+    color: #aaa;
+    font-size: 54px;
+    opacity: 0.7;
+}
+.dashboardTitle
+{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.dashboard a:hover 
+{
+    text-decoration: none;
+}
+.dashboard a:hover .dashboardItem
+{
+    background-color: #eee;
+}
+.dashboard .dashboardItem , .dashboardIcon , .dashboardTitle
+{
+    transition: all 0.3s ease;
+}
+.dashboard a:hover .dashboardIcon , .dashboard a:hover .dashboardTitle
+{
+opacity: 1;
+}
+.addresses .edit
+{
+    color: red;
+    font-size: 15px;
+    font-weight: 300;
+}
+.edit:hover
+{
+    text-decoration: none;
+    color: red;
+}
+.accountDetails .required
+{
+    color: red;
+}
+.accountDetails .accountInfo input
+{
+outline: none !important;
+}
+.accountDetails .accountInfo label
+{
+    font-size: 14px;
+}
+legend
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+.accountPage
+{
+    display: none;
+}
+.dashboard{
+    display: block;
+}
