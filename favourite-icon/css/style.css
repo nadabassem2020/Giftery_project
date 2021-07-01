@@ -1,0 +1,65 @@
+/* ----------  general -------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+.lightBoxContainer {
+    overflow-x: hidden;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+/*---------------- body------------- */
+
+.body {
+    font-family: 'segoe ui light';
+}
+
+
+/* will delete but this to avoid mistake */
+
+.section-space {
+    margin-bottom: 20%;
+}
+
+
+/* ----------- icons----------------- */
+
+.icon-container {
+    background-color: white;
+    padding-top: 50px;
+    position: relative;
+    /* work only when user click on icon*/
+    /* right: -30%;   */
+}
+
+.icon-head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon-shape {
+    font-size: 80px;
+    color: darkgrey;
+}
+
+.arrow {
+    font-size: 50px;
+    position: absolute;
+    left: -25px;
+    top: 30px;
+}
+
+.icon-p {
+    font-weight: 800;
+    color: #777;
+}
+
