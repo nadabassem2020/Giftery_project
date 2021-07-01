@@ -1,0 +1,104 @@
+@media screen and (max-width:992px) {
+    .search-btn {
+        position: static !important;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .cats-navbar {
+        width: 70%;
+        background-color: #fff;
+        border: 1px solid #aaa;
+        /* padding: 16px; */
+        position: absolute;
+        z-index: 1000;
+        height: 100vh;
+        overflow: auto;
+        left: -100%;
+        top: 0;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+}
+    .out{
+        left: 0;
+    }
+    /* .custom-navbar .main-links>.drop{
+        justify-content: start;
+    } */
+    .list-title {
+        justify-content:space-between !important;
+        padding: 0 4px;
+    }
+
+    .custom-navbar .cats-navbar ul:not(.main-links) {
+        position: static !important;
+        display: none;
+        opacity: 1;
+        width: 100%;
+    }
+    ul{
+        border: none!important;
+    }
+    ul.row{
+        margin: 0!important;
+    }
+    .main-links>li{
+        border: 1px solid #ddd;
+    }
+    .search-container{
+        padding: 0!important;
+        justify-content: flex-start!important;
+    }
+    .bg-trans{
+        padding: 8px 16px;
+    }
+    .main-li,.main-li li{
+        padding: 8px 16px;
+    }
+    .cats-container,.bg-trans,.main-drop{
+        background-color: #ddd!important;
+    }
+    .main-li a,.main-li{
+        color: #333!important;
+        font-weight: 600;
+    }
+    .main-drop{
+        padding-left: 32px!important;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .banner-item {
+        margin-bottom: 16px;
+    }
+    .banner-slider .slider-info p {
+        color: #000;
+        font-size: 29px;
+        margin-bottom: 0;
+    }
+    
+    .banner-slider .slider-info span{
+        font-size: 12px;
+        
+    }
+    .custom-btn{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:567px) {
+    .lightBoxContainer {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:567px) and (max-width:768px) {
+    .lightBoxContainer {
+        width: 60%;
+    }
+
+}
