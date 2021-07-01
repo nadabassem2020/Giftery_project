@@ -1,0 +1,7 @@
+/* breadcrumb */
+.breadcrumb{
+    background-color: #f7f7f7!important;
+}
+.breadcrumb-item a{
+    color: #6c757d;
+}
